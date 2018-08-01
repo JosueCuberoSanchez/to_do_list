@@ -1,0 +1,40 @@
+{
+  "name": "to_do_list",
+  "version": "1.0.0",
+  "description": "To do list ",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp start",
+    "deploy": "./node_modules/.bin/gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosueCuberoSanchez/to_do_list.git"
+  },
+  "author": "Josué Cubero Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosueCuberoSanchez/to_do_list/issues"
+  },
+  "homepage": "https://github.com/JosueCuberoSanchez/to_do_list#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "postcss-reporter": "^5.0.0",
+    "postcss-scss": "^2.0.0",
+    "stylelint": "^9.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}
